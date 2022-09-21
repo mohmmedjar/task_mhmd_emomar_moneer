@@ -1,0 +1,56 @@
+form {
+    border: 2px solid #cacaca;
+    height: 500px;
+    border-radius: 2%;
+}
+
+input[type=text],
+input[type=password] {
+    width: 95%;
+    padding: 12px 20px;
+    margin: 15px 0;
+    display: inline-block;
+    border: 1px solid rgb(205, 205, 205);
+    box-sizing: border-box;
+    margin-left: 5px;
+    border-radius: 2%;
+}
+
+button {
+    background: linear-gradient(to right, #2C55A2 0%, #99D1C4 16%, #95D1D1 31%, #9E7AB5 48%, #EB9FC6 64%, #EC622C 82%, #F3989A 100%);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 95%;
+    margin-left: 5px;
+    border-radius: 3%;
+}
+
+.container {
+    margin-top: 140px;
+    margin-left: 600px;
+    background-color: #ffffff;
+    padding: 16px;
+    width: 20%;
+    height: 500px;
+    border-radius: 2%;
+}
+
+body {
+    background-image: url('pic/background\ TD4.png');
+    background-repeat: no-repeat;
+    background-size: 1600px 755px;
+}
+
+img {
+    width: 200px;
+    margin-left: 50px;
+}
+
+#aa {
+    margin-left: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}

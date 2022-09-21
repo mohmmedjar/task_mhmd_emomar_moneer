@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Home page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      user-select: none;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    html,
+    body {
+      height: 100%;
+    }
+
+
+    .header {
+      padding: 50px;
+      text-align: center;
+      background: #f0b3b381;
+    }
+
+    .logo {
+      width: 300px;
+    }
+
+
+    .slid{
+      overflow: hidden;
+      background: linear-gradient(to left, #2C55A2 0%, #99D1C4 16%, #95D1D1 31%, #9E7AB5 48%, #EB9FC6 64%, #EC622C 82%, #F3989A 100%);
+    }
+
+
+    .slid a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+
+    .slid a.right {
+      float: right;
+    }
+
+    .opo1 {
+      position: relative;
+      left: 30px;
+    }
+
+
+
+
+    .opo2 {
+      float: right;
+
+    }
+
+    .fa {
+      padding: 10PX;
+    }
+
+    .main {
+      -ms-flex: 70%;
+      /* IE10 */
+      flex: 70%;
+      background-color: white;
+      padding: 20px;
+    }
+
+
+    .para1 {
+      font-size: 5vmax;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      display: flex;
+      justify-content: center;
+      color: #34d0b9;
+
+    }
+
+
+
+    .para2 {
+      background-color: #eaf7f5;
+      width: 100%;
+      padding: 40px;
+      display: flex;
+      justify-content: space-between
+    }
+
+    #Ok {
+      border: 1px solid;
+      background-image: url(pic2.jpg);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+
+    }
+
+
+    @media screen and (max-width: 70px) {
+      .row {
+        flex-direction: column;
+      }
+    }
+
+    @media screen and (max-width: 400px) {
+      .navbar a {
+        float: none;
+        width: 100%;
+      }
+    }
+
+    .para7 {
+      font-size: 2vmax;
+      color: #2C55A2;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      display: flex;
+      justify-content: right;
+    }
+
+    .qqq {
+      background-color: #f0b3b3;
+      padding: 10px;
+      text-size-adjust: 100px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .footer {
+      background-image: url(pic2.jpg);
+      background-size: cover;
+      background-position: center center;
+      padding: 70px;
+      text-align: center;
+      filter: brightness( 80% ) contrast( 50% ) saturate( 100% ) blur( 0px ) hue-rotate( 0deg );
+}
+      
+    
+
+    .text1 {
+      position: relative;
+      right: 197px;
+      top: 175px;
+      font-size: 3.3vmin;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+    .text2{
+      float: right;
+      font-size: 2.9vmin;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: #9a9a9a;
+    }
+    .text3{
+      font-size: 3.1vmin;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: #9a9a9a;
+    }
+
+    #one {
+      position: relative;
+      right: -99px;
+      margin-top: 1.6vmax;
+      background-repeat: no-repeat;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="header">
+    <img class="logo" src="images/LogoTD4-02.png" alt="">
+  </div>
+
+  <div class="slid">
+    <a href="login/login.html" target="_blank" style="font-size:25px">Sign in<i class="fa fa-user-circle-o"></i></a>
+    <span class="opo1"><a href="./login/sginup/signup.html" target="_blank" style="font-size:25px">Sign up<i class="fa fa-edit"></i></a></span>
+    <span class="opo2"><a href="cart.html" target="_blank" " style="font-size:35px"><i class="fa fa-shopping-cart"></i></a></span>
+
+  </div>
+  
+    
+    <div class="main">
+      <h1 class="para1">برامجنا</h1>
+      <br>
+      <br>
+      <h3 class="qqq">يَسْأَلُونَكَ مَاذَا يُنْفِقُونَ قُلْ مَا أَنْفَقْتُمْ مِنْ خَيْرٍ فَلِلْوَالِدَيْنِ
+        وَالْأَقْرَبِينَ وَالْيَتَامَى وَالْمَسَاكِينِ وَابْنِ السَّبِيلِ وَمَا تَفْعَلُوا مِنْ خَيْرٍ فَإِنَّ اللَّهَ
+        بِهِ عَلِيمٌ</h3>
+
+
+      <div class="para2">
+
+        <a href="index.html" target="_blank"
+           style=" background-image:url(images/qatra.png); width: 200px; border-radius: 12px ; height:150px;"
+            id="one">
+        </a>
+        <div class="text1"><a href="index.html" target="_blank" style="text-decoration:none;"> QATRA - قطرة </a></div>
+
+
+        <a href="index2.html" target="_blank"
+        style="background-image:url(./images/qblati.png); width: 200px; border-radius: 12px ; height:150px; "
+            id="one">
+        </a>
+        <div class="text1"><a href="index2.html" target="_blank" style="text-decoration:none;" > QIBLATY - قبلتي </a></div>
+
+
+        <a href="index3.html" target="_blank" 
+           style="background-image:url(images/basar.png); width: 200px; border-radius: 12px ; height:150px; "
+            id="one">
+        </a>
+        <div class="text1"><a href="index3.html" target="_blank" style="text-decoration:none;" > BASAR - بصر </a></div>
+
+      </div>
+
+      <div style="height:200px;">
+        <h2 class="para7"> رؤيتنا </h2>
+        <p class="text2">مجتمع واعى ومؤسسات قوية وأفراد مؤهلين يعملون معاً لخلق واقع أفضل.</p>
+        <br>
+        <br>
+        <h2 class="para7"> رسالتنا </h2>
+        <p dir="rtl" class="text3">نؤمن بدور المجتمع المدني كشريك فعال  في مسيرة الوطن المنشود من خلال تنفيذ برامج تنموية مستدامة نابعة من إحتياجات حقيقية للمجتمعات ومبنية على الإستثمار في البشر (كأهم مورد طبيعي) وقائمة على الشبيك ما بين الجهات لتحقيق التكامل لخلق واقع أفضل.</p>
+
+
+      </div>
+
+
+      <div class="footer">
+        <h2>تواصل معنا</h2>
+        <a href="https://wa.me/message/2TLIMXAXN3QFK1?src=qr" target="_blank" style="font-size:26px"><i class="fa fa-phone"></i></a>
+        <a href="https://www.facebook.com/Tog4Dev" target="_blank" style="font-size:26px"><i class="fa fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/tog4dev/" target="_blank" style="font-size:26px"><i class="fa fa-instagram"></i></a>
+        <a href="#" target="_blank" style="font-size:26px"><i class="fa fa-twitter"></i></a>
+      </div>
+
+    
+
+</body>
+
+</html>
